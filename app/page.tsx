@@ -1,17 +1,23 @@
 'use client'
-import Image from 'next/image'
+import localFont from 'next/font/local'
 import Snowfall from 'react-snowfall'
 import {KimboLogo} from './KimboLogo.jsx'
 import {IdleKimbo} from './IdleKimbo.jsx'
+import {SmallButton} from './SmallButton.jsx'
+
+const myFont = localFont({ src: './dpcomic.ttf' })
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen bg-[url('/websitebg.png')] bg-[#d2e8ff]">
+    <main className="flex min-h-screen bg-[url('/websitebg.png')] bg-[#d2e8ff] bg-no-repeat bg-bottom">
       <div className='flex w-full h-32'>
         <KimboLogo/>
-        <div className="flex  font-black text-5xl items-center drop-shadow-lg">
-          KIMBO
+        <div className="flex  text-7xl items-center drop-shadow-lg">
+          <h1 className={myFont.className}>KIMBO</h1>
         </div>
       </div>
+      
+      
       <div className="md:hidden">
       </div>
       <Snowfall
@@ -21,6 +27,7 @@ export default function Home() {
         // Controls the number of snowflakes that are created (defaults to 150).
         snowflakeCount={200}
       />
+      <SmallButton/>
       <IdleKimbo/>
     </main>
   )
