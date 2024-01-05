@@ -24,7 +24,7 @@ export const DexScreener = () => (
   src={'/dexscreener.png'}
   alt="DexScreener Link"
   /> </Link>
-  <div className={myFont.className}>
+  <div className={`${myFont.className} drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]`}>
     DexScreener
   </div>
   </motion.div>
@@ -46,7 +46,7 @@ export const DexScreener = () => (
   src={'/joelogo.png'}
   alt="DexScreener Link"
   /> </Link>
-  <div className={myFont.className}>
+  <div className={`${myFont.className} drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]`}>
     Trader Joe
   </div>
   </motion.div>
@@ -68,7 +68,7 @@ export const DexScreener = () => (
   src={'/pharaohlogo.png'}
   alt="DexScreener Link"
   /> </Link>
-  <div className={myFont.className}>
+  <div className={`${myFont.className} drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]`}>
     PHARAOH
   </div>
   </motion.div>

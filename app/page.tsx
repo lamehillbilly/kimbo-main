@@ -11,7 +11,7 @@ const myFont = localFont({ src: './dpcomic.ttf' })
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen bg-[url('/websitebg.png')] bg-[#d2e8ff] bg-no-repeat bg-bottom justify-center">
+    <main className="flex min-h-screen bg-[url('/websitebg.png')] bg-[#d2e8ff] bg-no-repeat bg-bottom justify-center bg-cover">
       
       <div>
         <div className = "absolute right-0 top-0 mt-8 w-[300px] h-[80px] z-50 max-md:w-[80px]">
