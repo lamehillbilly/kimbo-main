@@ -6,7 +6,7 @@ export const SmallButton = () => (
   </div>
   </Link>
   
-  <Link href="https://discord.gg/RzRDHFwbD4">
+  <Link href="https://discord.gg/8gP7DJq5Qx">
   <div className="flex ml-2 w-[64px] h-[64px] bg-[url('/dc_button_static.png')] hover:bg-[url('/dc_button.gif')]  bg-center">
   </div>
   </Link>
