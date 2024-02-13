@@ -15,9 +15,12 @@ export const BookContent = () => (
 
         </div>
         <div className="flex font-bold text-center flex-col m-5 "> 🪙69,420,000,000 Tokens🪙</div>
-        <div className="flex flex-col text-center items-center m-5"><Link href="https://snowtrace.io/tx/0xc3482f010b53a8a5681f5054d590200b896a711ae28c786aefe74c1250814f0f">🔥Liquidity Burned🔥</Link></div>
+        <div className="flex flex-col text-center items-center m-5"><Link href="https://searchavax.com/v1/0xc3482f010b53a8a5681f5054d590200b896a711ae28c786aefe74c1250814f0f">🔥Liquidity Burned🔥</Link></div>
         <div className="flex font-bold text-cente m-5 flex-col"><div className="flex flex-col text-center">❌Contract Renounced❌</div> </div>
-        <div className="flex font-bold text-cente m-5 flex-col text-center"><div className="flex flex-col text-center">Contract:</div> <div className="flex flex-col text-[22px]"><Link href="https://snowtrace.io/token/0x184ff13B3EBCB25Be44e860163A5D8391Dd568c1"> 0x184ff13B3EBCB25Be44e860163A5D8391Dd568c1</Link></div></div>
+        <div className="flex font-bold text-cente m-5 flex-col text-center"><div className="flex flex-col text-center">Contract:</div> <div className="flex flex-col text-[22px]">
+          <Link href="https://searchavax.com/v1/0x184ff13B3EBCB25Be44e860163A5D8391Dd568c1"> 
+          0x184ff13B3EBCB25Be44e860163A5D8391Dd568c1
+          </Link></div></div>
       </div>
     </div>
 
